@@ -13,9 +13,6 @@ function Home() {
         <Link to="/register" className="w-72 px-6 py-3 text-lg font-medium bg-green-500 hover:bg-green-600 text-white rounded-lg flex items-center justify-center shadow-md transition-transform transform hover:scale-105">
           <FaUserPlus className="mr-3" /> Registrarse
         </Link>
-        <Link to="/events" className="w-72 px-6 py-3 text-lg font-medium bg-yellow-400 hover:bg-yellow-500 text-black rounded-lg flex items-center justify-center shadow-md transition-transform transform hover:scale-105">
-          <FaCalendarAlt className="mr-3" /> Ver Eventos
-        </Link>
       </nav>
     </div>
   );
